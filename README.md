@@ -261,3 +261,6 @@ export function increate(){
 }
 import {increase} from ./counter
 ```
+
+## 19. 운영체제 정보
+const os = require('os')

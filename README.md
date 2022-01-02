@@ -276,3 +276,16 @@ setTimeout => 얼마 뒤에 실행 되게 할수 있다
 
 clearInterval => 파라미터로 받은 interval 객체를 종료 시킨다
 ```
+
+## 22. path
+- 파일의 경로에 접근할 때 사용
+const path = require('path')
+```
+__dirname
+__filename
+basename
+dirname
+extname
+normalize
+join
+```

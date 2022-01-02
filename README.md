@@ -226,7 +226,7 @@ reject => catch
     -  Template Literals
     -  Optional chaining (ES11)
     - Nullish Coalescing Operator (ES11)
-    
+
 ## 16. 콘솔 로그 잘쓰기
 - console
 ```
@@ -239,3 +239,7 @@ console.log(student) // 기본
 console.table(student) // 테이블 형태로 출력
 console.dir(student, { showHidden: true, colors: false, depth: 2 }) // 깊이가 깊은 콘솔도 출력
 ```
+
+## 17. this란(브라우저와 차이점)
+브라우저의 this => 밖에서 쓰이는 것은 global을 가리킴
+노드의 this => 모듈에 있는 exports를 가리킴

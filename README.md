@@ -226,3 +226,16 @@ reject => catch
     -  Template Literals
     -  Optional chaining (ES11)
     - Nullish Coalescing Operator (ES11)
+    
+## 16. 콘솔 로그 잘쓰기
+- console
+```
+console.log('log') // 개발
+console.info('info') // 정말 중요한 정보
+console.warn('warn') // 발생하면 안되긴 하지만 치명적인건 아닌
+console.error('error') // 에러, 사용자 에러, 시스템 에러
+
+console.log(student) // 기본
+console.table(student) // 테이블 형태로 출력
+console.dir(student, { showHidden: true, colors: false, depth: 2 }) // 깊이가 깊은 콘솔도 출력
+```

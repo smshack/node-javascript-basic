@@ -243,3 +243,21 @@ console.dir(student, { showHidden: true, colors: false, depth: 2 }) // 깊이가
 ## 17. this란(브라우저와 차이점)
 브라우저의 this => 밖에서 쓰이는 것은 global을 가리킴
 노드의 this => 모듈에 있는 exports를 가리킴
+
+## 18. 모듈
+```
+프로젝트를 만들 때 연관 있는 것들은 한 디렉터리 내에 모듈로 만들어서 묶어 놓는 것이 맞음
+
+---------------------------------------------------
+exports
+require
+----------------------------------------------------
+npm init -y
+type:'module'
+
+
+export function increate(){
+
+}
+import {increase} from ./counter
+```

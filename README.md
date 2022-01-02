@@ -289,3 +289,16 @@ extname
 normalize
 join
 ```
+
+## 23. 파일시스템
+const fs = require('fs')
+```
+rename(...,callback(error,data)) => 비동기
+renameSync(...) => 동기  await try{}catch(e){}
+Promise.rename().then().catch(0)
+readFile => 파일 읽기
+appendFile => 이어서 쓰기
+copyFile => 파일 복사
+mkdir => 폴더 만들기
+readdir => 디렉터리 파일명 읽기
+```

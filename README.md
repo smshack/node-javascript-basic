@@ -267,3 +267,12 @@ const os = require('os')
 
 ## 20. 프로세스 정보
 const process = require("process")
+
+## 21. 타이머 기능
+```
+setInterval => 중지 하지 않는 이상 계속 일정 간격으로 실행 되게 하는 역할
+
+setTimeout => 얼마 뒤에 실행 되게 할수 있다
+
+clearInterval => 파라미터로 받은 interval 객체를 종료 시킨다
+```
